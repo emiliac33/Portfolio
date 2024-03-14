@@ -1,0 +1,383 @@
+/* om mig, den ljusbruna boxen runt om innehålet */
+.box {
+  border: 1px rgb(148, 100, 60);
+  background-color: rgb(203, 162, 162);
+  width: 1000px;
+  height: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* projekt, den ljusbruna boxen runt om innehålet */
+.box2 {
+  border: 1px rgb(148, 100, 60);
+  background-color: rgb(203, 162, 162);
+  width: 1000px;
+  height: 3050px;
+  margin: auto;
+  padding: 30px;
+}
+
+/* bildgalleri, den ljusbruna boxen runt om innehålet */
+.box3 {
+  border: 1px rgb(148, 100, 60);
+  background-color: rgb(203, 162, 162);
+  width: 1000px;
+  height: 1260px;
+  margin: auto;
+  padding: 30px;
+}
+
+.textbox {
+  width: 700px;
+}
+
+/* storleken på bilden längst upp */
+.header {
+  width: 1240px;
+}
+
+/* färg på texten och bakgrunden */
+body {
+  color: rgb(127, 54, 2);
+  background: rgb(249, 220, 220);
+}
+
+/* rubrikernas position och storlek */
+h1 {
+  text-align: center;
+  font-size: 500%;
+}
+
+p {
+  width: 700px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* navigationsmeny */
+nav {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(237, 204, 204);
+}
+
+/* navigationsmeny */
+ul {
+  margin: 0px;
+}
+
+/* navigationsmeny */
+ul li {
+  list-style: none;
+  display: inline-block;
+  line-height: 60px;
+}
+
+/* navigationsmeny */
+ul li a {
+  text-decoration: none;
+  font-size: large;
+  color: saddlebrown;
+  font-family: "Courier New", Courier, monospace;
+  padding: 0 20px;
+}
+
+/* navigationsmeny, blir svart när man för musen över texten */
+ul li a:hover {
+  color: #000;
+}
+
+/* rubrikens färg */
+h1 {
+  color: saddlebrown;
+}
+
+.color {
+  width: 1220px;
+}
+
+/* hem, bakrundsbilds position och textens position */
+.box-with-background {
+  background-image: url(watercolor.png);
+  background-position: center;
+  background-size: full;
+  padding-bottom: 10%;
+  font-size: 32px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.bild {
+  width: 600px;
+  height: 600px;
+  margin-top: 60px;
+}
+
+.watersplash {
+  width: 800px;
+  height: 600px;
+  position: absolute;
+  bottom: 120px;
+  right: 0%;
+}
+
+.watersplash2 {
+  width: 400px;
+  height: 300px;
+  margin-left: 840px;
+  margin-top: 30px;
+}
+
+/* kontaktuppgifter, bakrundsbilds position och textens position */
+.flexlåda {
+  background-image: url(katt.png);
+  background-position: center;
+  padding-bottom: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: medium;
+  text-align: center;
+  flex-direction: column;
+}
+
+.telefon {
+  width: 100px;
+  margin: 5px;
+}
+
+.mail {
+  width: 110px;
+}
+
+.linkedin {
+  width: 100px;
+  margin: 5px;
+}
+
+/* footer boxen längst ner på sidan */
+footer {
+  background-color: rgb(237, 204, 204);
+  position: relative;
+  height: 260px;
+  margin-top: 100px;
+  clear: both;
+}
+
+.footercontainer {
+  width: 100%;
+  padding: 70px 4px 20px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+/* sociala mediernas boxar */
+.social a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: rgb(252, 183, 193);
+  margin: 10px;
+  border-radius: 40%;
+}
+
+.social a i {
+  font-size: 2em;
+  color: #000;
+  opacity: 0.9;
+}
+
+/* när man för musen över boxen blir bakgrunden svart */
+.social a:hover {
+  background-color: #000;
+  transition: 0.5s;
+}
+
+/* när man för musen över boxen får symbolerna en färg */
+.social a:hover i {
+  color: rgb(252, 183, 193);
+  transition: 0.5s;
+}
+
+.storlek {
+  display: flex;
+  justify-content: center;
+}
+
+.h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.projekt {
+  width: 400px;
+  height: 210px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flexlåda div a {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.content {
+  position: relative;
+  min-height: 1500px;
+}
+
+/* bilderna i bildgalleriets storlek */
+.bildgalleri {
+  width: 240px;
+  height: 450px;
+}
+
+.bildgalleri2 {
+  width: 330px;
+  height: 450px;
+}
+
+.bildgalleri3 {
+  width: 570px;
+  height: 350px;
+}
+
+.bildgalleri4 {
+  width: 350px;
+  height: 350px;
+}
+
+/* knappens utseende */
+button {
+  background-color: rgb(254, 212, 218);
+  color: saddlebrown;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* ändrar så att sidan blir responsiv */
+@media only screen and (max-width: 700px) {
+  .header {
+    width: 100%;
+  }
+
+  nav {
+    height: unset;
+  }
+
+  ul {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  footer {
+    height: unset;
+  }
+
+  .bild {
+    position: unset;
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+  }
+
+  .box {
+    width: 100%;
+    height: unset;
+    margin: auto;
+  }
+
+  .textbox {
+    width: 100%;
+  }
+
+  p {
+    width: unset;
+  }
+
+  .watersplash {
+    width: 100%;
+    height: unset;
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .box2 {
+    width: 100%;
+    height: unset;
+    margin: auto;
+    padding: 0px;
+  }
+
+  .box3 {
+    width: 100%;
+    height: unset;
+    margin: auto;
+    padding: 0px;
+  }
+
+  .projekt {
+    width: 100%;
+    height: unset;
+  }
+
+  .watersplash2 {
+    width: 100%;
+    height: unset;
+    margin-left: 0px;
+  }
+
+  .flexlåda {
+    background-image: unset;
+    padding-bottom: 0px;
+    display: flex;
+    height: unset;
+    padding: 30px 0px 30px 0px;
+  }
+
+  .content {
+    min-height: unset;
+  }
+
+  .watersplash {
+    display: none;
+  }
+
+  .bildgalleri3 {
+    width: 100%;
+    height: unset;
+  }
+
+  .bildgalleri {
+    width: 100%;
+    height: unset;
+  }
+
+  .bildgalleri2 {
+    width: 100%;
+    height: unset;
+  }
+
+  .bildgalleri4 {
+    width: 100%;
+    height: unset;
+  }
+}
