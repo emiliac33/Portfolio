@@ -80,7 +80,7 @@ button5.addEventListener("click", function () {
   if (textElement5.innerHTML === "") {
     // om man inte ser någon text, ändras den så det kommer upp en text när man trycker på knappen
     textElement5.innerHTML =
-      "I min utbildning på BTH hade vi en kurs som heter webbproduktion och programering där vi fick jobba med Html, CSS och JavaScript. Där har jag skapa min portfolio som du är inne på just nu och lärt mig grunderna för att programera hemisdor. Vi jobbade också med programering.";
+      "I min utbildning på BTH hade vi en kurs som heter webbproduktion och programering där vi fick jobba med Html, CSS och JavaScript. Där har jag skapa min portfolio som du är inne på just nu och lärt mig grunderna för att programera hemisdor.";
   } else {
     // om man ser texten göms den när man trycker på knappen igen
     textElement5.innerHTML = "";
