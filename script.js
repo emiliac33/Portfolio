@@ -28,7 +28,7 @@ button.addEventListener("click", function () {
   if (textElement.innerHTML === "") {
     // om man inte ser någon text, ändras den så det kommer upp en text när man trycker på knappen
     textElement.innerHTML =
-      "I min utbildning på BTH hade vi en kurs som heter Grunder i design av digitala upplevelser för lärande 7,5hp där skulle vi skapa ett tittskåp i programmet Unity. Vi skulle välja en platts som vi ville återskapa och det skulle vara som en låda (tittskåp) där man kan titta in/uppleva hur platsen är. Jag valde en skog som ligger nära där jag bor som jag ville återskapa.";
+      "I min utbildning på BTH hade vi en kurs som heter Grunder i design av digitala upplevelser för lärande 7,5hp där vi skulle skapa ett tittskåp i programmet Unity. Vi skulle välja en plats som vi ville återskapa och det skulle vara som en låda (tittskåp) där man kan titta in och uppleva hur platsen är. Jag valde en skog som ligger nära där jag bor som jag ville återskapa.";
   } else {
     // om man ser texten göms den när man trycker på knappen igen
     textElement.innerHTML = "";
@@ -41,7 +41,7 @@ button2.addEventListener("click", function () {
   if (textElement2.innerHTML === "") {
     // om man inte ser någon text, ändras den så det kommer upp en text när man trycker på knappen
     textElement2.innerHTML =
-      "I min utbildning från BTH hade vi en kurs som heter digitalt lärande 7,5hp där skulle vi göra en remediering. Vi skulle jobba i grupp och komma på något som vi ville göra om, något gammalt medium till ett nytt medium. Vi valde att jobba med en SO bok som barn i årskurs 1-3 använder sig av som vi ville med hjälp utav VR glasögon förstärka läsförståelsen. Vi inriktade oss till barn med dyslexi och svårigheter i skolan. Med hjälp utav VR-glasögon ska barnen kunna få uppleva boken i ett annat perspektiv och även få boken uppläst samtidigt när det befinner sig i världen, ett stöttande hjälpmedel till boken. Jag har skapat ett exempel på hur det kan se ut i VR-glasögonen i Unity när det upplever järnåldern.";
+      "I min utbildning från BTH hade vi en kurs som heter Digitalt lärande 7,5hp där skulle vi genomföra en remediering. Vi skulle arbeta i grupp och komma på något att förnya, att ta ett gammalt medium och omvandla det till ett nytt medium. Vi valde att arbeta med en SO bok som används av barn i årskurs 1-3 och använda VR-glasögon för att förstärka läsförståelsen. Vår målgrupp var barn med dyslexi och svårigheter i skolan. Med hjälp utav VR-glasögon skulle barnen kunna uppleva boken från ett annat perspektiv och även få boken uppläst samtidigt när de befinner sig i bokens värld. Vilket skulle vara ett stöttande hjälpmedel för boken. Jag har skapat ett exempel på hur det kan se ut genom VR-glasögonen i Unity när det upplever järnåldern.";
   } else {
     // om man ser texten göms den när man trycker på knappen igen
     textElement2.innerHTML = "";
@@ -54,7 +54,7 @@ button3.addEventListener("click", function () {
   if (textElement3.innerHTML === "") {
     // om man inte ser någon text, ändras den så det kommer upp en text när man trycker på knappen
     textElement3.innerHTML =
-      "Skapat tak Lampor med gamla hjul som jag har slipat, målat och satt upp med gamla kedjor. Sedan köpte jag en färdig lampa som jag träde runt hjulet. Jag har också skapat en lampa som passar bra i ett barnrum, den är inspererad av filmen Upp.";
+      "Jag har skapat taklampor med gamla hjul som jag har slipat, målat och satt upp med gamla kedjor. Sedan köpte jag en färdig lampa som jag trädde runt hjulet. Jag har också skapat en lampa som passar bra i ett barnrum, den är inspererad av filmen Upp.";
   } else {
     // om man ser texten göms den när man trycker på knappen igen
     textElement3.innerHTML = "";
@@ -67,7 +67,7 @@ button4.addEventListener("click", function () {
   if (textElement4.innerHTML === "") {
     // om man inte ser någon text, ändras den så det kommer upp en text när man trycker på knappen
     textElement4.innerHTML =
-      "Jag och min sambo har bygt utemöbler med hjälp av träplankor och fyrkantsrör. Vi svetsade ihop en stome och oljade in trät i en grå ton, vi målade även fyrkantsrören svarta.";
+      "Jag och min sambo har byggt utemöbler med hjälp av träplankor och fyrkantsrör. Vi svetsade ihop en stomme och oljade in träet i en grå ton. Dessutom målade vi fyrkantsrören svarta.";
   } else {
     // om man ser texten göms den när man trycker på knappen igen
     textElement4.innerHTML = "";
@@ -80,7 +80,7 @@ button5.addEventListener("click", function () {
   if (textElement5.innerHTML === "") {
     // om man inte ser någon text, ändras den så det kommer upp en text när man trycker på knappen
     textElement5.innerHTML =
-      "I min utbildning på BTH hade vi en kurs som heter webbproduktion och programering där vi fick jobba med Html, CSS och JavaScript. Där har jag skapa min portfolio som du är inne på just nu och lärt mig grunderna för att programera hemisdor.";
+      "I min utbildning på BTH hade vi en kurs som heter Webbproduktion och programmering där vi fick arbeta med HTML, CSS och JavaScript. Under den kursen skapade jag min portfolio, som du för närvarande besöker, och lärde mig grunderna för att programmera webbsidor.";
   } else {
     // om man ser texten göms den när man trycker på knappen igen
     textElement5.innerHTML = "";
@@ -93,7 +93,7 @@ button6.addEventListener("click", function () {
   if (textElement6.innerHTML === "") {
     // om man inte ser någon text, ändras den så det kommer upp en text när man trycker på knappen
     textElement6.innerHTML =
-      " I kursen användarupplevelse och gränssnittkursen på BTH jobbade vi med UX/UI där vi skulle få förståelse för olika aspekter och faktorer som bestämmer användarupplevelsen och dess kvalitet. Vi jobbade också med hur vi kan analysera upplevelsekvalitén och använda motsvarande resultat för att förbättra en design av en upplevelse. Vi var en grupp på fyra personer som jobbade med att vi ville förbättra sida lekolar.se, vi såg bristande information om digitala läromedel. Vi skapade en prototyp systersida som heter Digilar som vi tänkte ska vara en länkande arm till lekolar.se. Där all digiltala läromedel ska vara på en sida där det finns bra information om produkterna för att öka intresset och bra information om vad det kan stärka lärandet. ";
+      " I kursen Användarupplevelse och gränssnitt på BTH arbetade vi med UX/UI där vi skulle få förståelse för olika aspekter och faktorer som påverkar användarupplevelsen och dess kvalitet. Vi arbetade också med hur vi kan analysera upplevelsekvalitén och använda motsvarande resultat för att förbättra en design av en upplevelse. Vi var en grupp på fyra personer som arbetade med att förbättra sida lekolar.se, där vi identifierade bristande information om digitala läromedel. Vi skapade en prototyp systersida som heter Digilar som vi tänkte ska vara en länkande arm till lekolar.se. På Digilar skulle alla digiltala läromedel finnas samlat på en sida med bra information om produkterna för att öka intresset och bra information om hur det kan stärka lärandet. ";
   } else {
     // om man ser texten göms den när man trycker på knappen igen
     textElement6.innerHTML = "";
