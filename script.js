@@ -15,12 +15,14 @@ var button3 = document.getElementById("myButton3");
 var button4 = document.getElementById("myButton4");
 var button5 = document.getElementById("myButton5");
 var button6 = document.getElementById("myButton6");
+var button7 = document.getElementById("myButton7");
 var textElement = document.getElementById("demo");
 var textElement2 = document.getElementById("demo2");
 var textElement3 = document.getElementById("demo3");
 var textElement4 = document.getElementById("demo4");
 var textElement5 = document.getElementById("demo5");
 var textElement6 = document.getElementById("demo6");
+var textElement7 = document.getElementById("demo7");
 
 // en händelselyssnare för knappen
 button.addEventListener("click", function () {
@@ -97,5 +99,18 @@ button6.addEventListener("click", function () {
   } else {
     // om man ser texten göms den när man trycker på knappen igen
     textElement6.innerHTML = "";
+  }
+});
+
+// en händelselyssnare för knappen
+button7.addEventListener("click", function () {
+  // ändrar texten när knappen trycks ned
+  if (textElement7.innerHTML === "") {
+    // om man inte ser någon text, ändras den så det kommer upp en text när man trycker på knappen
+    textElement7.innerHTML =
+      " I kursen Produktion av digitala upplevelser (15 hp) arbetade vi i grupp. Vår grupp fördjupade sig i programmet Figma, där vi skapade en prototyp av en applikation. Vi designade både hur appen skulle se ut och vilka funktioner som skulle ingå. Vi utvecklade ett lärande community för idéutbyte, och i videon visas en del av det jag har bidragit med i applikationen. Vi arbetade även i Trello och följde Scrum-metoden för att säkerställa ett effektivt samarbete inom gruppen.";
+  } else {
+    // om man ser texten göms den när man trycker på knappen igen
+    textElement7.innerHTML = "";
   }
 });
